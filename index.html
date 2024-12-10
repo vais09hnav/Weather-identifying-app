@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="tab-pic.avif"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://safikumar00.github.io/assets/main.png"
+        class="main-img"
+      />
+
+      <div class="box-1">
+        <div class="hinge-1">
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+        </div>
+        <h1 class="main-box1">Date Section</h1>
+
+        <div class="secp">
+          <input
+            type="input"
+            placeholder="Enter Your City Name"
+            id="city"
+            class="enter"
+            required
+          />
+          <button class="submit" onclick="Searchcity()" type="button">Search</button>
+        </div>
+        <div class="calendar">
+          <p id="month" class="hello"></p>
+          <p id="date" class="hello"></p>
+          <p id="year" class="hello"></p>
+          <p id="day" class="hello"></p>
+        </div>
+      </div>
+      <div class="box-2">
+        <div class="hinge-2">
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+        </div>
+        <div class="card-title">
+          <h2 class="card-style" id="name"></h2>
+        </div>
+        <div class="temp">
+          <h1 id="temp"></h1>
+          <span class="t-real">°C</span>
+        </div>
+        <div class="temp-1 bg-green">
+          <h3 id="nice" style="color: black;"></h3>
+        </div>
+
+        
+      </div>
+    </div>
+    <div class="copy">
+        <footer >
+            &hearts; Designed By Shades Of Vaish &hearts;<br> Thank You ^_^
+          </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
